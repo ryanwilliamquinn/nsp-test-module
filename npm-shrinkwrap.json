@@ -1,0 +1,61 @@
+{
+  "name": "nsp-test-module",
+  "version": "1.0.1",
+  "dependencies": {
+    "amdefine": {
+      "version": "1.0.1",
+      "from": "amdefine@>=0.0.4",
+      "resolved": "https://artifactory.homeawaycorp.com/artifactory/api/npm/npm/amdefine/-/amdefine-1.0.1.tgz"
+    },
+    "async": {
+      "version": "0.2.10",
+      "from": "async@>=0.2.6 <0.3.0",
+      "resolved": "https://artifactory.homeawaycorp.com/artifactory/api/npm/npm/async/-/async-0.2.10.tgz",
+      "optional": true
+    },
+    "handlebars": {
+      "version": "3.0.3",
+      "from": "handlebars@>=3.0.3 <4.0.0",
+      "resolved": "https://artifactory.homeawaycorp.com/artifactory/api/npm/npm/handlebars/-/handlebars-3.0.3.tgz"
+    },
+    "minimist": {
+      "version": "0.0.10",
+      "from": "minimist@>=0.0.1 <0.1.0",
+      "resolved": "https://artifactory.homeawaycorp.com/artifactory/api/npm/npm/minimist/-/minimist-0.0.10.tgz"
+    },
+    "npm-publish-sandbox": {
+      "version": "1.1.1",
+      "from": "npm-publish-sandbox@^1.1.1",
+      "resolved": "https://registry.npmjs.org/npm-publish-sandbox/-/npm-publish-sandbox-1.1.1.tgz"
+    },
+    "optimist": {
+      "version": "0.6.1",
+      "from": "optimist@>=0.6.1 <0.7.0",
+      "resolved": "https://artifactory.homeawaycorp.com/artifactory/api/npm/npm/optimist/-/optimist-0.6.1.tgz"
+    },
+    "source-map": {
+      "version": "0.1.43",
+      "from": "source-map@>=0.1.40 <0.2.0",
+      "resolved": "https://artifactory.homeawaycorp.com/artifactory/api/npm/npm/source-map/-/source-map-0.1.43.tgz"
+    },
+    "uglify-js": {
+      "version": "2.3.6",
+      "from": "uglify-js@>=2.3.0 <2.4.0",
+      "resolved": "https://artifactory.homeawaycorp.com/artifactory/api/npm/npm/uglify-js/-/uglify-js-2.3.6.tgz",
+      "optional": true,
+      "dependencies": {
+        "optimist": {
+          "version": "0.3.7",
+          "from": "optimist@>=0.3.5 <0.4.0",
+          "resolved": "https://artifactory.homeawaycorp.com/artifactory/api/npm/npm/optimist/-/optimist-0.3.7.tgz",
+          "optional": true
+        }
+      }
+    },
+    "wordwrap": {
+      "version": "0.0.3",
+      "from": "wordwrap@>=0.0.2 <0.1.0",
+      "resolved": "https://artifactory.homeawaycorp.com/artifactory/api/npm/npm/wordwrap/-/wordwrap-0.0.3.tgz"
+    }
+  }
+}
